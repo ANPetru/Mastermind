@@ -35,6 +35,7 @@ Numbers at different position: 1
 
 ![Demo Gameplay](https://j.gifs.com/yoGmZz.gif)
 
+
 <a name="play"/>
 
 ## How to play
