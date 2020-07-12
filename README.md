@@ -33,7 +33,7 @@ Numbers at different position: 1
 
 ## Demo
 
-![Demo Gameplay](https://j.gifs.com/yoGmZz.gif)
+![Demo Gameplay](https://j.gifs.com/q702GD.gif)
 
 
 <a name="play"/>
