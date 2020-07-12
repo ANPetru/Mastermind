@@ -14,7 +14,7 @@ Mastermind game for command line made in Go.
 
 ## About
 
-Mastermind is a guessing game.
+Mastermind (also known as [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)) is a guessing game.
 
 A number of 4 digits is randomly generated, and the player has to guess it. Each turn the player guesses a number, and it's shown how many number where guessed in the same 
 position, and how many in a different position.
@@ -33,7 +33,7 @@ Numbers at different position: 1
 
 ## Demo
 
-https://j.gifs.com/yoGmZz.gif
+![Demo Gameplay](https://j.gifs.com/yoGmZz.gif)
 
 <a name="play"/>
 
