@@ -14,11 +14,12 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	randomNumber = getStringFromInt(rand.Intn(9999))
 	guessNumber = ""
+	fmt.Println("A 4 digit number has been randomly generated. Guess it!")
 	for true {
-		fmt.Println("Enter a 4 digits number")
+		fmt.Println("Enter a 4 digits number.")
 		fmt.Scanf("%s\n", &guessNumber)
 		if len(guessNumber) != 4{
-			fmt.Println("The number must have 4 digits")
+			fmt.Println("The number must have 4 digits.")
 		} else {
 			randNumToCalc = randomNumber
 			samePos := getNumberInSamePosition()
@@ -32,7 +33,8 @@ func main() {
 		}
 
 	}
-
+	fmt.Println("Press enter to exit-")
+	fmt.Scanf("%s\n", &guessNumber)
 }
 
 func getNumeberInDifferentPosition() int{
